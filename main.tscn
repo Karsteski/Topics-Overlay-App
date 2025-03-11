@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0e23pnjmgp2p"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_ywbtg"]
+
+[node name="main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ywbtg")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextEdit" type="TextEdit" parent="PanelContainer"]
+layout_mode = 2
+text = " Sample Topic 1: The colour of leaves
+
+"
+placeholder_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+editable = false
+wrap_mode = 1
